@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.recruiter-dashboard {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #3498db;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Optional: Style file input */
+input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+/* Optional: Style form validation messages */
+::before {
+    content: "⚠ ";
+    color: #d9534f;
+    display: none;
+}
+
+:invalid {
+    border: 1px solid #d9534f;
+}
+
+:invalid::before {
+    display: inline;
+    content: attr(title);
+}

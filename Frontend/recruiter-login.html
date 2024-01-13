@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruiter Login - SwiftSelect</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Recruiter Login</h2>
+        <form onsubmit="validateRecruiterLogin(); return false;">
+            <label for="recruiter-email">Email:</label>
+            <input type="text" id="recruiter-email" name="recruiter-email" required>
+            <br>
+            <label for="recruiter-password">Password:</label>
+            <input type="password" id="recruiter-password" name="recruiter-password" required>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+    <script src="recruiter-login.js"></script>
+</body>
+</html>

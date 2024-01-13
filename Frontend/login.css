@@ -32,6 +32,14 @@ body {
     background-color: #dddada;
 }
 
+.logo-container {
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 0px; /* Adjust the top value as needed */
+    left: 20px; /* Adjust the left value as needed */
+}
+
 .recruiter-button,
 .applicant-button {
     padding: 12px 50px;

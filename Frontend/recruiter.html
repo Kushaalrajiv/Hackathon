@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruiter Dashboard - SwiftSelect</title>
+    <link rel="stylesheet" href="recruiter.css">
+</head>
+<body>
+    <div class="recruiter-dashboard">
+        <h2>Recruiter Dashboard</h2>
+        <form id="jobForm" onsubmit="submitJobForm(); return false;">
+            <label for="companyName">Company Name:</label>
+            <input type="text" id="companyName" name="companyName" required>
+            <br>
+
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" name="jobTitle" required>
+            <br>
+
+            <label for="deadline">Deadline to Apply:</label>
+            <input type="date" id="deadline" name="deadline" required>
+            <br>
+
+            <label for="jobDescription">Job Description (Text File):</label>
+            <input type="file" id="jobDescription" name="jobDescription" accept=".txt" required>
+            <br>
+
+            <label for="csvFile">CSV File (2 Columns - Primary & Secondary Skills):</label>
+            <input type="file" id="csvFile" name="csvFile" accept=".csv" required>
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="recruiter.js"></script>
+</body>
+</html>

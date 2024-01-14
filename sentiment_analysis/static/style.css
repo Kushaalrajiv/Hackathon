@@ -1,7 +1,7 @@
 body,html{
 	height: 100%;
 	margin: 0;
-	background: linear-gradient(to right, rgb(104, 176, 234), rgb(22, 81, 130));
+	background: linear-gradient(to bottom, #E8F3EA, #FFFFFF, #F0F0FF);
 }
 
 .message{
@@ -11,7 +11,7 @@ body,html{
 .card{
 	height: 500px;
 	border-radius: 15px !important;
-	background-color: rgba(0,0,0,0.4) !important;
+	background-color: rgba(0, 0, 0, 0.656) !important;
 }
 
 .msg_card_body{

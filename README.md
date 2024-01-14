@@ -1,3 +1,5 @@
+![Login Page](login-page.png)
+
 # E-Recruitment Platform
 
 ## Overview
